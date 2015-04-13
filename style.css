@@ -1,0 +1,41 @@
+#rock {
+	width: 500px;
+	margin:0 auto;
+	display:block;
+}
+.first-rock {
+	-webkit-animation: first_shadow 3s ease infinite;
+	        animation: first_shadow 3s ease infinite;
+}
+.second-rock {
+	-webkit-animation: second_shadow 4s ease infinite;
+	        animation: second_shadow 4s ease infinite;
+}
+@-webkit-keyframes first_shadow {
+	0% {opacity:1;}
+	15% {opacity:.95;}
+	50% {opacity:.98;}
+	75% {opacity:.96;}
+	100% {opacity:1;}
+}
+@keyframes first_shadow {
+	0% {opacity:1;}
+	15% {opacity:.95;}
+	50% {opacity:.98;}
+	75% {opacity:.96;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes second_shadow {
+	0% {opacity:1;}
+	25% {opacity:.94;}
+	45% {opacity:.95;}
+	85% {opacity:.93;}
+	100% {opacity:.96;}
+}
+@keyframes second_shadow {
+	0% {opacity:1;}
+	25% {opacity:.94;}
+	45% {opacity:.95;}
+	85% {opacity:.93;}
+	100% {opacity:.96;}
+}
